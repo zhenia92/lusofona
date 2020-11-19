@@ -30,7 +30,7 @@ for y in range(0,256):
     f.write(ip_pre +'\n')
     f.close()
 
-# Debug Ports
+# Debug Ip
 # print(ip)
 
 # Another Way to do
