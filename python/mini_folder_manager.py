@@ -39,14 +39,12 @@ def main():
         while True:
 
             decision = input(">")
-            decision = decision.strip()
             
             if decision == "1":
                 list_dir()
 
             elif decision == "2":
                 name = input("Please enter name: ")
-                name = name.strip().lower()
                 create(name)
 
             elif decision == "3":
